@@ -1,0 +1,19 @@
+{
+  "name": "basicjest",
+  "version": "1.0.0",
+  "description": "Pruebas unitarias con jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ruben E Acosta <eldragondera1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.1",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^26.2.1"
+  }
+}

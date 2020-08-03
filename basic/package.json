@@ -4,7 +4,8 @@
   "description": "Pruebas unitarias con jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "Ruben E Acosta <eldragondera1@gmail.com>",

@@ -13,3 +13,4 @@
 
 .toHaveLength()
 .toContain()
+.toMatch(/bonito/)

@@ -1,0 +1,15 @@
+.toBe()
+.toBeGreaterThan()
+.toBeGreaterThanOrEqual()
+.toBeLessThan()
+.toBeLessThanOrEqual()
+.toBeCloseTo()
+.toEqual()
+
+.toBeNull()
+.toBeTruthy()
+.toBeFalsy()
+.toBeUndefined()
+
+.toHaveLength()
+.toContain()

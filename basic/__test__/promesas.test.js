@@ -8,6 +8,14 @@ describe('Probando promesa', () => {
       done();
     });
   });
+
+  test('Resuelve promesa', () => {
+    return expect(Promise.resolve('Hola')).resolves.toBe('Hola');
+  });
+
+  test('Rechaza con error', () => {
+    return expect(Promise.reject('Error')).rejects.toBe('Error');
+  })
 });
 
 // recuerda el done para funciones asincronas

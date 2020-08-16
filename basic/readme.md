@@ -14,3 +14,5 @@
 .toHaveLength()
 .toContain()
 .toMatch(/bonito/)
+
+.toMatchSnapshot()  // npm run test -u archivo.test.js

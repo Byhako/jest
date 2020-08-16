@@ -1,5 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Probando snapshot Excepsion 1`] = `
+Object {
+  "createAt": Any<Date>,
+  "id": 15,
+}
+`;
+
+exports[`Probando snapshot Siempre fallo :( 1`] = `
+Object {
+  "createAt": 2020-08-16T01:24:11.956Z,
+  "id": 2,
+}
+`;
+
 exports[`Probando snapshot Verifica a Toto 1`] = `
 Object {
   "gender": "Macho",

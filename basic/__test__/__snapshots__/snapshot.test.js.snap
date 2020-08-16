@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando snapshot Verifica a Toto 1`] = `
+Object {
+  "gender": "Macho",
+  "id": "1",
+  "name": "Toto",
+  "species": "Cat",
+  "status": "Alive",
+}
+`;

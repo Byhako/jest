@@ -2,5 +2,3 @@ basic/node_modules
 basic/package-lock.json
 express/node_modules
 express/package-lock.json
-react/node_modules
-react/package-lock.json

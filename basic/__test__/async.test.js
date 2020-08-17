@@ -1,3 +1,4 @@
+import "regenerator-runtime/runtime.js";
 import { promesa } from '../promesas';
 
 describe('Probando async/await', () => {
@@ -9,10 +10,7 @@ describe('Probando async/await', () => {
 
   test('Peticion a Api', async () => {
     const api = 'https://rickandmortyapi.com/api/character/';
-    await promesa(api).then(data => {
-      expect(data.results.length).toBeGreaterThan(0);
-    });
-    // const data = await promesa(api);
-    // expect(data.results.length).toBeGreaterThan(0);
+    const data = await promesa(api);
+    expect(data.results.length).toBeGreaterThan(0);
   });
 });

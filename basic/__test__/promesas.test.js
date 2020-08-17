@@ -1,4 +1,4 @@
-import { promesa } from '../promesas';
+import "regenerator-runtime/runtime.js";
 
 describe('Probando promesa', () => {
   test('Mi promesa', done => {
